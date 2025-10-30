@@ -5,6 +5,7 @@ import pool from "./config/db.js";
 
 import userRoutes from "./routes/userRoutes.js";
 import middlewares from "./middlewares/errorHandler.js";
+import errorHandling from "./middlewares/errorHandler.js";
 
 dotenv.config();
 
